@@ -48,7 +48,7 @@ export default function Tasks() {
       setMessage("");
     }, 2500);
   };
-
+  console.log(process.env.NEXT_PUBLIC_API_URL, "ffffff");
   // ==========================================
   // GET ALL TASKS
   // ==========================================
